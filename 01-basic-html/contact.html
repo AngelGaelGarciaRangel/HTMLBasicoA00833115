@@ -4,22 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CONTACT</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h1>Lets connect!</h1>
-  <form action="">
-    <p>Asunto:</p>
+  <form action="" class="contact">
+    <label for="asunto">Asunto:</label>
     <input type="text" name="asunto" id="">
-    <p>Nombre:</p>
-    <input type="text" name="nombre" id="">
-    <p>Comentarios:</p>
-    <textarea></textarea>
-    <p>Correo electrónico:</p>
-    <input type="email" name="correo" id="">
-    <p>Número de teléfono:</p>
-    <input type="tel" name="numero" id="">
-    <br>
-    <br>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre">
+    <label for="comentarios">Comentarios:</label>
+    <textarea id="comentarios"></textarea>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" name="correo" id="correo">
+    <label for="telefono">Número de teléfono:</label>
+    <input type="tel" name="numero" id="telefono">
     <button type="submit">Enviar</button>
   </form>
 </body>
